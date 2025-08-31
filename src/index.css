@@ -1,0 +1,54 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+
+  font-family: "Roboto", sans-serif;
+}
+
+
+.cupon {
+  width: 100px;
+}
+
+p,
+.gris,
+input[placeholder] {
+  color: #707070;
+  font-weight: 300;
+}
+
+
+
+.bg-green {
+  background-color: #28a745;
+}
+
+.green {
+  color: #28a745;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
