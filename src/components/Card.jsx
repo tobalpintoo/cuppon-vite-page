@@ -128,10 +128,12 @@ const Card = () => {
                     <div className="card mx-2">
                         <img src={cupon6} className="card-img-top" alt="Plumon" />
                         <div className="card-body">
-                            <h5 className="card-title fw-light mb-3">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
+                            <h5 className="card-title fw-light mb-3">1 o 2 noches en alojamiento a elección</h5>
+                            <p className="card-text h6 fw-light">D-Latam Travel</p>
                             <p className="card-text h6 fw-light">
                                 <i className="fas fa-map-marker-alt fa-xs"></i>
-                                D-Latam Travel</p>
+                                San Pedro de Atacama
+                                </p>
                             <hr />
                             <ul className="list-group list-group-flush text-right">
                                 <li className="list-group-item ms-auto fw-light gris py-0">
