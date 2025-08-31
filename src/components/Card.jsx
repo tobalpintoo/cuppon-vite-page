@@ -129,7 +129,9 @@ const Card = () => {
                         <img src={cupon6} class="card-img-top" alt="Plumon" />
                         <div class="card-body">
                             <h5 class="card-title fw-light mb-3">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
-                            <p class="card-text h6 fw-light">D-Latam Travel</p>
+                            <p class="card-text h6 fw-light">
+                                <i class="fas fa-map-marker-alt fa-xs"></i>
+                                D-Latam Travel</p>
                             <hr />
                             <ul class="list-group list-group-flush text-right">
                                 <li class="list-group-item ms-auto fw-light gris py-0">
